@@ -2,7 +2,7 @@
   --primary-text-color: #757575;
   --title-text-color: #212121;
   --accent-color: #2196F3;
-  --primary-white-color: #F5F5F5;
+  --primary-white-color: #FFFFFF;
 }
 
 
@@ -72,6 +72,15 @@ color: var(--accent-color);
     color:var(--accent-color);
 }
 
+.contact .link{
+    color: var(--primary-text-color);
+}
+
+.contact .link:hover,
+.contact .link:focus{
+    color: var(--accent-color);
+}
+
 
 /* ГЕРОЙ */
 
@@ -82,7 +91,8 @@ color: var(--accent-color);
 .hero-title{
     color:var(--primary-white-color);
 }
-h1{
+.hero-title-index{
+    color: #FFFFFF;
     font-weight: 900;
     font-size: 44px;
     line-height: calc(60/44);
@@ -95,6 +105,13 @@ h1{
 .hero-button{
     background-color: var(--accent-color);
     color:var(--primary-white-color);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
 
 }
     
@@ -115,7 +132,8 @@ h1{
 
 /* Примеры работ */
 
-.examples .subtitle{
+.examples .work{
+    color: var(--title-text-color);
     font-weight: 700;
     font-size: 36px;
     line-height: calc(42/36);
@@ -133,11 +151,12 @@ h1{
 }
 
 
-.team .subtitle{
+.team .name{
+    color:var(--title-text-color);
     font-weight: 500;
     font-size: 16px;
     line-height: calc(19/16);
-    text-align: center
+    text-align: center;
 }
 .position{
     font-weight: 400;
@@ -155,9 +174,13 @@ h1{
 }
 
 
-.button.primary{
+.all .button.primary{
     color:var(--title-text-color) ;
     background-color:#F5F4FA;  
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(26/16);
+    text-align: center;
 
 }
 .button.primary:hover,
@@ -173,15 +196,31 @@ h1{
     background-color: var(--title-text-color);
 }
 
+.grey .adress.link:hover,
+.grey .adress.link:focus{
+    color: var(--accent-color);
+}
+
+.grey .adress.link{
+    color:#FFFFFF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(24/14);
+}
+
 .grey .link{
-    color: var(--primary-white-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(24/14);
+    color: rgba(255, 255, 255, 0.6);
+
+
 }
 
 .grey .link:hover,
 .grey .link:focus{
     color: var(--accent-color);
 }
-
 
 
 /* работы */
